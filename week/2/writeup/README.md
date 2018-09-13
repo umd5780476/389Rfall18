@@ -115,7 +115,7 @@ The stub shows connecting to TCP and the description says I will have access to 
 22/tcp   open   ssh
 ```` 
 
-I tried to brute force these using hydra but I had no success.  
+I tried to brute force these using hydra and multiple different usernames but I had no success.  
 
 ````
 hydra -l kruegster1990 -P /usr/share/wordlists/rockyou.txt -s 2222 142.93.117.193 ssh
@@ -165,13 +165,12 @@ Nmap done: 1 IP address (1 host up) scanned in 15.55 seconds
 
 I used telnet to connect to all of the open ports and discovered a username prompt on port 1337 of the admin server.
 
-I wrote my python script to brute force the login. 
+I wrote a python script to brute force the login and gain access to the server. 
 
 
+Once I had access to the server, I looked around for flags. I initially tried using grep but that did not help find the correct flag.
 
-Once I had access to the server, I looked around for flags.
-
-His Instagram page has his flight number and there is a file with the same name.
+His Instagram page has his flight number and there is a text file with the same name.
 
 CMSC389R-{c0rn3rstone-air-27670}
 
