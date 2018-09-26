@@ -17,7 +17,7 @@ After I had a working shell, I went on a hunt for the flag. Just like in previou
 
 ````
 \week4>python shell.py
-what do? shell
+? shell
 />cd home
 /home>ls
 flag.txt
