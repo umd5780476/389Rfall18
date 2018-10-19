@@ -69,13 +69,4 @@ Since steghide was mentioned in class, I assumed it was the next step, but I sti
 ```Congrats! Your flag is: CMSC389R-{dropping_files_is_fun}```
 
 
-#### rant
-
-I had a lot of trouble getting my kali vm to work on this assignment. I couldn’t install new software.
-
-```E: Could not get lock /var/lib/dpkg/lock - open (11 Resource temporarily unavailable)```
-
-And firefox in kali didn’t work with any https sites. It said the certificate was invalid but wouldn’t let me add an exception. It probably has something to do with saving the vm state and booting it up a weeks later. 
-Working between a VM and your main OS is not fun.
-
 
