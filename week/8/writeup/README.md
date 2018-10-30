@@ -87,13 +87,13 @@ See below
 5.	Report at least one flag hidden in update.fpff. Any other flag found will count as bonus points towards the competition portion of the syllabus.
 
 
-CMSC389R-{h1dd3n-s3ct10n-1n-f1l3} Base64 decode
+Base64 decode Q01TQzM4OVIte2gxZGQzbi1zM2N0MTBuLTFuLWYxbDN9 gives the flag: CMSC389R-{h1dd3n-s3ct10n-1n-f1l3}
 
-![](https://i.imgur.com/6RpAKIc.png)
+Image stored in the custom file ![](https://i.imgur.com/6RpAKIc.png)
 
 [(422) 537 - 7946](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
-CMSC389R-{PlaIN_dIfF_LAG} https://i.imgur.com/2C5yA5C.png
+Flag hidden in text. If you have the source image, steganography is easy to detect. The same is true for text steganography. CMSC389R-{PlaIN_dIfF_LAG} https://i.imgur.com/2C5yA5C.png
 
 
 
