@@ -32,7 +32,7 @@ Laz0rh4x: 104.248.224.85
 
 c0uchpot4doz: 142.93.118.186
 
-They are using DigitalOcean servers in North Bergen, New Jersey.  
+They are using DigitalOcean servers in North Bergen, New Jersey. A basic whois lookup gives this.
 
 4. What port are they using to communicate on our server?
 
