@@ -30,16 +30,15 @@ laz0rh4x and c0uchpot4doz
 
 Laz0rh4x: 104.248.224.85
 
-c0uchpot4doz: 142.93.118.186
+c0uchpot4doz: 206.189.113.189
 
-They are using DigitalOcean servers in North Bergen, New Jersey. A basic whois lookup gives this.
+They are using DigitalOcean servers in North Bergen, New Jersey and New York. A basic whois lookup gives this.
 
 4. What port are they using to communicate on our server?
 
-c0uchpot4doz sends a HTTP request to your server on port 80. The source port is 35020.
+Destination Port: 2749
 
-He also performs a traceroute to your server which uses many ports. Destination ports: 33434-33476.
-
+Destination: 142.93.118.186
 
 5.	Did they mention their plans? When are they happening?
 
