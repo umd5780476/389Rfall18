@@ -14,7 +14,7 @@ Digital acknowledgement of honor pledge: John
 
 This part was very simple and straight forward. The assignment description details exactly what I had to do. Go through all the possible combinations of salt + password, hash them, and check if see if it is one of our known hashes. Even though it is not pretty or efficient, my code does work.
 
-![](https://i.imgur.com/HdzxUjA.png)
+![](https://i.imgur.com/3QvV6V4.png)
 
 ````
 mjordan c35eb97205dd1c1a251ad9ea824c384e5d0668899ce7fbf269f99f6457bd06055440fba178593b1f9d4bfbc7e968d48709bc03e7ff57056230a79bc6b85d92c8
@@ -29,7 +29,7 @@ I initial didn’t understand why the stub code was provided. I tried to complet
 
 I started off by fighting with python regular expressions while trying to extract the hash method and value from the received data. To call the hash function in python, I looked up if python supported reflection and learned about the ```` getattr```` function. This prevented me from having to write out a bunch of if statements. Initially, I directly passed the input to ```` getattr````. However, I decided that since this is a security course, I should at least have some sort of input validation so the server can’t run arbitrary functions on my machine.
 
-![](https://i.imgur.com/CZJDpnx.png)
+![](https://i.imgur.com/zaFr08u.png)
 
 ````
 You win! CMSC389R-{H4sh-5l!ngInG-h@sH3r}
