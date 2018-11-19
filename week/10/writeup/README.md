@@ -14,7 +14,7 @@ Digital acknowledgement of honor pledge: John
 
 In this exercise we exploit MD5 to sign a message using a previously signed message. This is possible because the output of MD5 is the state of the internal variables. We can initialize MD5 with these variables and use it to hash a longer message. The result of the hash is ````hash(secret + original message + padding + extra message)```` By guessing the length of the secret, we can calculate the padding since we know the original message. This lets us “sign” a message without knowing the key. Alternatively, we could just brute force the key since MD5 fast and insecure.
 
-To write the code for this assignment, I followed the comments. The only difficult part was calculating the padding, which I struggled with because I though 1 byte was equivalent to 4 bits, smh. Once I figured out that bug, it was easy to get working. I chose to use a socket to communicate with the server because copying and pasting was tiresome at the start. One ambiguous part of this assignment was if the key was allowed to not be a multiple of 8 bits. 
+To write the code for this assignment, I followed the comments. The only difficult part was calculating the padding, which I struggled with because I though 1 byte was equivalent to 4 bits. Once I figured out that bug, it was easy to get working. I chose to use a socket to communicate with the server because copying and pasting was tiresome. One ambiguous part of this assignment was if the key was allowed to not be a multiple of 8 bits. 
  
 
 ````
@@ -30,12 +30,16 @@ Made in Maryland - Substantial
 
 ### Part 2 (30 Pts)
 
-I started by creating a message in ````msg.txt````. Then I reviewed the slides to see what commands I needed. The two commands I used are shown below.
+I started by creating a message in ````msg.txt````. Then I reviewed the slides to see what commands I needed. The two commands I used are shown below. 
 ````
 gpg --import pgpassignment.key
 gpg -e -r "UMD Cybersecurity Club <president@csec.umiacs.umd.edu>" msg.txt
 mv msg.txt.gpg message.private
 ````
+
+![](https://i.imgur.com/jggpkzn.png)
+
+gpg gave warnings because the public key was not trusted. More info: https://askubuntu.com/questions/288853/why-is-gpg-getting-upset-and-how-do-i-stop-it
 
 * generating keys
 
